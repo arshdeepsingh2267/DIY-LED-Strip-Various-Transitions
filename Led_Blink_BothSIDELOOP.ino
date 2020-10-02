@@ -65,7 +65,7 @@ while(1){
   digitalWrite(L7,LOW);digitalWrite(L8,LOW);
   delay(250);
   if(digitalRead(btn)==HIGH){
-    delay(250);
+    delay(1);
     CountinuesLoop();
   }
 }  
